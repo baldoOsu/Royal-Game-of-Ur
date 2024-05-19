@@ -1,0 +1,10 @@
+C:\Users\engra\source\repos\Royal Game of Ur\bin\Debug\Royal Game of Ur.exe.config
+C:\Users\engra\source\repos\Royal Game of Ur\bin\Debug\Royal Game of Ur.exe
+C:\Users\engra\source\repos\Royal Game of Ur\bin\Debug\Royal Game of Ur.pdb
+C:\Users\engra\source\repos\Royal Game of Ur\obj\Debug\Royal Game of Ur.csproj.AssemblyReference.cache
+C:\Users\engra\source\repos\Royal Game of Ur\obj\Debug\Royal_Game_of_Ur.Form1.resources
+C:\Users\engra\source\repos\Royal Game of Ur\obj\Debug\Royal_Game_of_Ur.Properties.Resources.resources
+C:\Users\engra\source\repos\Royal Game of Ur\obj\Debug\Royal Game of Ur.csproj.GenerateResource.cache
+C:\Users\engra\source\repos\Royal Game of Ur\obj\Debug\Royal Game of Ur.csproj.CoreCompileInputs.cache
+C:\Users\engra\source\repos\Royal Game of Ur\obj\Debug\Royal Game of Ur.exe
+C:\Users\engra\source\repos\Royal Game of Ur\obj\Debug\Royal Game of Ur.pdb
