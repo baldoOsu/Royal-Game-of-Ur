@@ -8,9 +8,7 @@ namespace Royal_Game_of_Ur
 {
     public class Player
     {
-        private List<Piece> newPieces = new List<Piece>();
-        private List<Piece> outPieces = new List<Piece>();
-        private List<Piece> finishedPieces = new List<Piece>();
+        private List<Piece> pieces = new List<Piece>();
 
         public string Name { get; private set; }
         public int Score { get; private set; }
@@ -28,46 +26,27 @@ namespace Royal_Game_of_Ur
             this.Score += 1;
         }
 
-        public List<Piece> GetNewPieces()
+        public List<Piece> GetPieces()
         {
-            return this.newPieces;
+            return pieces;
         }
-        public List<Piece> GetOutPieces()
+        public List<Piece> GetPieces(PieceState state)
         {
-            return this.outPieces;
+            return pieces.FindAll(p => p.State == state);
         }
-        public List<Piece> GetFinishedPieces()
+        public void AddPiece(Piece piece)
         {
-            return this.finishedPieces;
+            pieces.Add(piece);
         }
-        public void AddNewPiece(Piece piece)
+        public void RemovePiece(Piece piece)
         {
-            this.newPieces.Add(piece);
+            pieces.Remove(piece);
         }
-        public void RemoveNewPiece(Piece piece)
-        {
-            for (int i = 0; i < 7; i++)
-            {
-                this.newPieces.Remove(piece);
-            }
-        }
-        public void AddOutPiece(Piece piece)
-        {
-            this.outPieces.Add(piece);
-        }
-        public void RemoveOutPiece(Piece piece)
-        {
-            this.finishedPieces.Remove(piece);
-        }
-        public void AddFinishedPiece(Piece piece)
-        {
-            this.finishedPieces.Add(piece);
-        }
+
+
         public void ClearPieces()
         {
-            this.newPieces.Clear();
-            this.outPieces.Clear();
-            this.finishedPieces.Clear();
+            this.pieces.Clear();
         }
     }
 }

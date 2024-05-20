@@ -8,3 +8,23 @@ C:\Users\engra\source\repos\Royal Game of Ur\obj\Debug\Royal Game of Ur.csproj.G
 C:\Users\engra\source\repos\Royal Game of Ur\obj\Debug\Royal Game of Ur.csproj.CoreCompileInputs.cache
 C:\Users\engra\source\repos\Royal Game of Ur\obj\Debug\Royal Game of Ur.exe
 C:\Users\engra\source\repos\Royal Game of Ur\obj\Debug\Royal Game of Ur.pdb
+C:\Users\rober\Desktop\projects\Royal-Game-of-Ur\bin\Debug\Royal Game of Ur.exe.config
+C:\Users\rober\Desktop\projects\Royal-Game-of-Ur\bin\Debug\Royal Game of Ur.exe
+C:\Users\rober\Desktop\projects\Royal-Game-of-Ur\bin\Debug\Royal Game of Ur.pdb
+C:\Users\rober\Desktop\projects\Royal-Game-of-Ur\obj\Debug\Royal Game of Ur.csproj.AssemblyReference.cache
+C:\Users\rober\Desktop\projects\Royal-Game-of-Ur\obj\Debug\Royal_Game_of_Ur.Form1.resources
+C:\Users\rober\Desktop\projects\Royal-Game-of-Ur\obj\Debug\Royal_Game_of_Ur.Properties.Resources.resources
+C:\Users\rober\Desktop\projects\Royal-Game-of-Ur\obj\Debug\Royal Game of Ur.csproj.GenerateResource.cache
+C:\Users\rober\Desktop\projects\Royal-Game-of-Ur\obj\Debug\Royal Game of Ur.csproj.CoreCompileInputs.cache
+C:\Users\rober\Desktop\projects\Royal-Game-of-Ur\obj\Debug\Royal Game of Ur.exe
+C:\Users\rober\Desktop\projects\Royal-Game-of-Ur\obj\Debug\Royal Game of Ur.pdb
+Y:\bin\Debug\Royal Game of Ur.exe.config
+Y:\bin\Debug\Royal Game of Ur.exe
+Y:\bin\Debug\Royal Game of Ur.pdb
+Y:\obj\Debug\Royal Game of Ur.csproj.AssemblyReference.cache
+Y:\obj\Debug\Royal_Game_of_Ur.Form1.resources
+Y:\obj\Debug\Royal_Game_of_Ur.Properties.Resources.resources
+Y:\obj\Debug\Royal Game of Ur.csproj.GenerateResource.cache
+Y:\obj\Debug\Royal Game of Ur.csproj.CoreCompileInputs.cache
+Y:\obj\Debug\Royal Game of Ur.exe
+Y:\obj\Debug\Royal Game of Ur.pdb

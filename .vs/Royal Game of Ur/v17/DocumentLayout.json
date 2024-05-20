@@ -1,34 +1,27 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\engra\\source\\repos\\Royal Game of Ur\\",
+  "WorkspaceRootPath": "Y:\\\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8613F64D-D759-4C78-A52E-3A0235976390}|Royal Game of Ur.csproj|C:\\Users\\engra\\source\\repos\\Royal Game of Ur\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8613F64D-D759-4C78-A52E-3A0235976390}|Royal Game of Ur.csproj|solutionrelative:piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8613F64D-D759-4C78-A52E-3A0235976390}|Royal Game of Ur.csproj|y:\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8613F64D-D759-4C78-A52E-3A0235976390}|Royal Game of Ur.csproj|c:\\users\\engra\\source\\repos\\royal game of ur\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8613F64D-D759-4C78-A52E-3A0235976390}|Royal Game of Ur.csproj|solutionrelative:board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8613F64D-D759-4C78-A52E-3A0235976390}|Royal Game of Ur.csproj|y:\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8613F64D-D759-4C78-A52E-3A0235976390}|Royal Game of Ur.csproj|C:\\Users\\engra\\source\\repos\\Royal Game of Ur\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8613F64D-D759-4C78-A52E-3A0235976390}|Royal Game of Ur.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8613F64D-D759-4C78-A52E-3A0235976390}|Royal Game of Ur.csproj|y:\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8613F64D-D759-4C78-A52E-3A0235976390}|Royal Game of Ur.csproj|C:\\Users\\engra\\source\\repos\\Royal Game of Ur\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8613F64D-D759-4C78-A52E-3A0235976390}|Royal Game of Ur.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8613F64D-D759-4C78-A52E-3A0235976390}|Royal Game of Ur.csproj|y:\\dice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8613F64D-D759-4C78-A52E-3A0235976390}|Royal Game of Ur.csproj|C:\\Users\\engra\\source\\repos\\Royal Game of Ur\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8613F64D-D759-4C78-A52E-3A0235976390}|Royal Game of Ur.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8613F64D-D759-4C78-A52E-3A0235976390}|Royal Game of Ur.csproj|y:\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8613F64D-D759-4C78-A52E-3A0235976390}|Royal Game of Ur.csproj|C:\\Users\\engra\\source\\repos\\Royal Game of Ur\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8613F64D-D759-4C78-A52E-3A0235976390}|Royal Game of Ur.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8613F64D-D759-4C78-A52E-3A0235976390}|Royal Game of Ur.csproj|y:\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8613F64D-D759-4C78-A52E-3A0235976390}|Royal Game of Ur.csproj|C:\\Users\\engra\\source\\repos\\Royal Game of Ur\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8613F64D-D759-4C78-A52E-3A0235976390}|Royal Game of Ur.csproj|solutionrelative:game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8613F64D-D759-4C78-A52E-3A0235976390}|Royal Game of Ur.csproj|y:\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +31,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\engra\\source\\repos\\Royal Game of Ur\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\engra\\source\\repos\\Royal Game of Ur\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA/wBYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T07:00:52.627Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Game.cs",
-              "DocumentMoniker": "C:\\Users\\engra\\source\\repos\\Royal Game of Ur\\Game.cs",
-              "RelativeDocumentMoniker": "Game.cs",
-              "ToolTip": "C:\\Users\\engra\\source\\repos\\Royal Game of Ur\\Game.cs",
-              "RelativeToolTip": "Game.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAzwCIAAAAJAAAA",
+              "DocumentMoniker": "Y:\\Game.cs",
+              "RelativeDocumentMoniker": "..\\Game.cs",
+              "ToolTip": "Y:\\Game.cs",
+              "RelativeToolTip": "..\\Game.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAuwJMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T12:46:55.152Z",
+              "WhenOpened": "2024-05-19T20:47:38.418Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Piece.cs",
-              "DocumentMoniker": "C:\\Users\\engra\\source\\repos\\Royal Game of Ur\\Piece.cs",
-              "RelativeDocumentMoniker": "Piece.cs",
-              "ToolTip": "C:\\Users\\engra\\source\\repos\\Royal Game of Ur\\Piece.cs",
-              "RelativeToolTip": "Piece.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAgwEYAAAAFAAAA",
+              "DocumentMoniker": "Y:\\Piece.cs",
+              "RelativeDocumentMoniker": "..\\Piece.cs",
+              "ToolTip": "Y:\\Piece.cs",
+              "RelativeToolTip": "..\\Piece.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAiwF8AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T12:46:48.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\engra\\source\\repos\\Royal Game of Ur\\Player.cs",
-              "RelativeDocumentMoniker": "Player.cs",
-              "ToolTip": "C:\\Users\\engra\\source\\repos\\Royal Game of Ur\\Player.cs",
-              "RelativeToolTip": "Player.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAAwBAAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T12:46:35.683Z",
+              "WhenOpened": "2024-05-19T20:49:08.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Board.cs",
-              "DocumentMoniker": "C:\\Users\\engra\\source\\repos\\Royal Game of Ur\\Board.cs",
-              "RelativeDocumentMoniker": "Board.cs",
-              "ToolTip": "C:\\Users\\engra\\source\\repos\\Royal Game of Ur\\Board.cs",
-              "RelativeToolTip": "Board.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCEAAAAOAAAA",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "Y:\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\Form1.cs",
+              "ToolTip": "Y:\\Form1.cs",
+              "RelativeToolTip": "..\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T12:43:03.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\engra\\source\\repos\\Royal Game of Ur\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\engra\\source\\repos\\Royal Game of Ur\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAwwBAAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T12:42:27.795Z",
+              "WhenOpened": "2024-05-20T02:26:50.172Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\engra\\source\\repos\\Royal Game of Ur\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\engra\\source\\repos\\Royal Game of Ur\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "DocumentMoniker": "Y:\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\Form1.cs",
+              "ToolTip": "Y:\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T12:42:11.855Z",
+              "WhenOpened": "2024-05-20T02:21:58.125Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dice.cs",
+              "DocumentMoniker": "Y:\\Dice.cs",
+              "RelativeDocumentMoniker": "..\\Dice.cs",
+              "ToolTip": "Y:\\Dice.cs",
+              "RelativeToolTip": "..\\Dice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T21:02:09.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Player.cs",
+              "DocumentMoniker": "Y:\\Player.cs",
+              "RelativeDocumentMoniker": "..\\Player.cs",
+              "ToolTip": "Y:\\Player.cs",
+              "RelativeToolTip": "..\\Player.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T20:47:44.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Board.cs",
+              "DocumentMoniker": "Y:\\Board.cs",
+              "RelativeDocumentMoniker": "..\\Board.cs",
+              "ToolTip": "Y:\\Board.cs",
+              "RelativeToolTip": "..\\Board.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwCsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T20:47:36.609Z",
+              "EditorCaption": ""
             }
           ]
         }

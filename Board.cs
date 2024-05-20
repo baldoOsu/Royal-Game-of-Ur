@@ -9,31 +9,115 @@ namespace Royal_Game_of_Ur
 {
     public class Board
     {
-        private TableLayoutPanel grid;
-        private Piece[,] playingPieces = new Piece[3,8];
-        
-        public Board(Player[] players, TableLayoutPanel grid)
+        private readonly TableLayoutPanel playingGrid;
+        private readonly TableLayoutPanel[] outGrids;
+        private readonly Piece[,] playingPieces = new Piece[3,8];
+        private readonly List<int[]> rosettePositions = new List<int[]>
         {
+            new int[] { 0, 0 },
+            new int[] { 2, 0 },
+            new int[] { 1, 3 },
+            new int[] { 0, 6 },
+            new int[] { 2, 6 }
+        };
+
+        public Board(Player[] players, TableLayoutPanel grid, Form1 form, Game game)
+        {
+            outGrids = new TableLayoutPanel[] { (TableLayoutPanel)form.Controls.Find("panel_out_orange", true)[0], (TableLayoutPanel)form.Controls.Find("panel_out_purple", true)[0] };
+
             for (int i = 0; i < 2; i++)
             {
                 Player player = players[i];
                 for (int j = 0; j < 7; j++)
                 {
-                    Piece piece = new Piece(player, this, new int[] { 0, 1 });
-                    this.playingPieces[i, j] = piece;
+                    Piece piece = new Piece(player, this, new int[] { 0, j });
+                    piece.MouseClick += (object sender, MouseEventArgs e) =>
+                    {
+                        game.MovePiece(piece);
+                    };
+
+                    outGrids[i].Controls.Add(piece);
                 }
             }
 
-            this.grid = grid;
-            this.grid.Controls.Add(playingPieces[0, 0], 0, 0);
-            this.grid.Controls.Add(playingPieces[0, 1], 0, 1);
-            this.grid.Controls.Add(playingPieces[1, 0], 1, 1);
-            this.grid.Controls.Add(playingPieces[1, 1], 1, 0);
+            this.playingGrid = grid;
         }
 
-        public void FocusPiece(Piece piece)
+        public bool IsValidMove(Piece piece, int[] newPosition)
         {
-            Console.WriteLine("Focusing piece");
+            // Check if the new position is within the board's boundaries
+            if (newPosition[0] < 0 || newPosition[0] > 2 || newPosition[1] < 0 || newPosition[1] > 7)
+            {
+                // Shouldn't happen
+                Console.WriteLine("Out of bounds!");
+                return false;
+            }
+
+            // Make sure they can't go further than finish tile
+            if (piece.BoardPosition[1] > 5 && newPosition[1] > 5)
+                return false;
+
+            // 🐈
+            if (playingPieces[newPosition[0], newPosition[1]] != null)
+            {
+                // player can't take own piece
+                if (playingPieces[newPosition[0], newPosition[1]].Player == piece.Player)
+                    return false;
+
+                // player can't take on rosette
+                if (IsRosette(newPosition))
+                    return false;
+            }
+
+            return true;
+        }
+
+        // 🌹
+        public bool IsRosette(int[] position)
+        {
+            return rosettePositions.Any(p => p[0] == position[0] && p[1] == position[1]);
+        }
+
+        // returns if landed on rosette
+        public bool MovePiece(Piece piece, int moveBy, out bool landedOnRosette)
+        {
+            int[] oldPosition = piece.BoardPosition;
+            int[] newPosition = piece.GetPossibleMovePosition(moveBy);
+
+            if (IsValidMove(piece, newPosition))
+            {
+                CapturePiece(piece, newPosition);
+                piece.SetPosition(newPosition);
+
+                if (piece.State == PieceState.Out)
+                    piece.SetState(PieceState.Playing);
+                else
+                    playingPieces[oldPosition[0], oldPosition[1]] = null;
+
+                playingPieces[newPosition[0], newPosition[1]] = piece;
+
+                this.playingGrid.Controls.Remove(piece);
+                this.playingGrid.Controls.Add(piece, newPosition[0], newPosition[1]);
+
+                landedOnRosette = IsRosette(newPosition);
+
+                return true;
+            }
+
+            landedOnRosette = false;
+            return false;
+        }
+
+        public void CapturePiece(Piece piece, int[] newPosition)
+        {
+            Piece targetPiece = playingPieces[newPosition[0], newPosition[1]];
+            if (targetPiece != null && targetPiece.Player != piece.Player)
+            {
+                targetPiece.SetPosition(new int[] { 0, 1 }); // Reset position
+                targetPiece.SetState(PieceState.Out);
+                this.playingGrid.Controls.Remove(targetPiece);
+                this.outGrids[(int)targetPiece.Player.color].Controls.Add(targetPiece);
+            }
         }
     }
 }

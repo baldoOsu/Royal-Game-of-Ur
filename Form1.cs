@@ -13,12 +13,13 @@ namespace Royal_Game_of_Ur
     public partial class Form1 : Form
     {
         private readonly int titleBarHeight = SystemInformation.CaptionHeight;
+        private Game game;
 
         public Form1()
         {
             
             InitializeComponent();
-            new Game(this);
+            game = new Game(this);
         }
     }
 }
