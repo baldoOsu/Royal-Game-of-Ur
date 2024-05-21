@@ -38,7 +38,7 @@ namespace Royal_Game_of_Ur
         private Button[] skipBtns = { null, null };
         private PictureBox[] numberPBoxes = { null, null };
         private TableLayoutPanel[] diceGrid = { null, null };
-        public Game(Form1 form)
+        public Game(MainForm form)
         {
             TableLayoutPanel grid = (TableLayoutPanel)form.Controls.Find("board_grid", false)[0];
             diceGrid = new TableLayoutPanel[] { (TableLayoutPanel)form.Controls.Find("dice_panel_orange", false)[0], (TableLayoutPanel)form.Controls.Find("dice_panel_purple", false)[0]};

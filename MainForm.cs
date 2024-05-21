@@ -10,12 +10,12 @@ using System.Windows.Forms;
 
 namespace Royal_Game_of_Ur
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         private readonly int titleBarHeight = SystemInformation.CaptionHeight;
         private Game game;
 
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
             game = new Game(this);

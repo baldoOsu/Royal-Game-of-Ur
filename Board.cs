@@ -23,7 +23,7 @@ namespace Royal_Game_of_Ur
             new int[] { 2, 6 }
         };
 
-        public Board(Player[] players, TableLayoutPanel grid, Form1 form, Game game)
+        public Board(Player[] players, TableLayoutPanel grid, MainForm form, Game game)
         {
             outGrids = new TableLayoutPanel[] { (TableLayoutPanel)form.Controls.Find("panel_out_orange", true)[0], (TableLayoutPanel)form.Controls.Find("panel_out_purple", true)[0] };
             finishedGrids = new TableLayoutPanel[] { (TableLayoutPanel)form.Controls.Find("panel_finished_orange", true)[0], (TableLayoutPanel)form.Controls.Find("panel_finished_purple", true)[0] };

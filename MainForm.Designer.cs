@@ -1,6 +1,6 @@
 ﻿namespace Royal_Game_of_Ur
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.board_grid = new System.Windows.Forms.TableLayoutPanel();
             this.panel_out_purple = new System.Windows.Forms.TableLayoutPanel();
             this.panel_out_orange = new System.Windows.Forms.TableLayoutPanel();
