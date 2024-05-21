@@ -17,7 +17,6 @@ namespace Royal_Game_of_Ur
 
         public Form1()
         {
-            
             InitializeComponent();
             game = new Game(this);
         }

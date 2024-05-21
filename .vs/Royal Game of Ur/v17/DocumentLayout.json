@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "Y:\\\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8613F64D-D759-4C78-A52E-3A0235976390}|Royal Game of Ur.csproj|y:\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8613F64D-D759-4C78-A52E-3A0235976390}|Royal Game of Ur.csproj|y:\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,9 +22,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{8613F64D-D759-4C78-A52E-3A0235976390}|Royal Game of Ur.csproj|y:\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8613F64D-D759-4C78-A52E-3A0235976390}|Royal Game of Ur.csproj|y:\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,50 +31,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Game.cs",
               "DocumentMoniker": "Y:\\Game.cs",
               "RelativeDocumentMoniker": "..\\Game.cs",
               "ToolTip": "Y:\\Game.cs",
               "RelativeToolTip": "..\\Game.cs",
-              "ViewState": "AQIAAH0AAAAAAAAAAAAuwJMAAAAMAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAYwF0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T20:47:38.418Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Piece.cs",
               "DocumentMoniker": "Y:\\Piece.cs",
               "RelativeDocumentMoniker": "..\\Piece.cs",
               "ToolTip": "Y:\\Piece.cs",
               "RelativeToolTip": "..\\Piece.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAiwF8AAAAeAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAA2wCkAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T20:49:08.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "Y:\\Form1.cs",
               "RelativeDocumentMoniker": "..\\Form1.cs",
               "ToolTip": "Y:\\Form1.cs",
               "RelativeToolTip": "..\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAWAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAvwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T02:26:50.172Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "Y:\\Form1.cs",
               "RelativeDocumentMoniker": "..\\Form1.cs",
@@ -86,39 +86,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Dice.cs",
               "DocumentMoniker": "Y:\\Dice.cs",
               "RelativeDocumentMoniker": "..\\Dice.cs",
               "ToolTip": "Y:\\Dice.cs",
               "RelativeToolTip": "..\\Dice.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T21:02:09.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Player.cs",
               "DocumentMoniker": "Y:\\Player.cs",
               "RelativeDocumentMoniker": "..\\Player.cs",
               "ToolTip": "Y:\\Player.cs",
               "RelativeToolTip": "..\\Player.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAuAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwCcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T20:47:44.118Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Board.cs",
               "DocumentMoniker": "Y:\\Board.cs",
               "RelativeDocumentMoniker": "..\\Board.cs",
               "ToolTip": "Y:\\Board.cs",
               "RelativeToolTip": "..\\Board.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAgwCsAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T20:47:36.609Z",
               "EditorCaption": ""

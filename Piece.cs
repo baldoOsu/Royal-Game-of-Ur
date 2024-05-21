@@ -23,15 +23,14 @@ namespace Royal_Game_of_Ur
             this.Height = 69;
             this.Width = 69;
 
-            //this.Padding = new Padding(5, 5, 0, 0);
-
             this.FlatStyle = FlatStyle.Flat;
             this.BackColor = System.Drawing.Color.Transparent;
             this.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.FlatAppearance.BorderSize = 0;
             
-            this.Image = Image.FromFile($"../../Assets/piece_{player.color}.png");
+            this.Image = Image.FromFile($"../../Assets/Pieces/piece_{player.color}.png");
+            this.Margin = new Padding(0, 2, 0, 0);
 
             this.BoardPosition = position;
             this.Player = player;

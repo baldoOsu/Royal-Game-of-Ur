@@ -11,6 +11,8 @@ namespace Royal_Game_of_Ur
     {
         private readonly TableLayoutPanel playingGrid;
         private readonly TableLayoutPanel[] outGrids;
+        private readonly TableLayoutPanel[] finishedGrids;
+
         private readonly Piece[,] playingPieces = new Piece[3,8];
         private readonly List<int[]> rosettePositions = new List<int[]>
         {
@@ -24,6 +26,8 @@ namespace Royal_Game_of_Ur
         public Board(Player[] players, TableLayoutPanel grid, Form1 form, Game game)
         {
             outGrids = new TableLayoutPanel[] { (TableLayoutPanel)form.Controls.Find("panel_out_orange", true)[0], (TableLayoutPanel)form.Controls.Find("panel_out_purple", true)[0] };
+            finishedGrids = new TableLayoutPanel[] { (TableLayoutPanel)form.Controls.Find("panel_finished_orange", true)[0], (TableLayoutPanel)form.Controls.Find("panel_finished_purple", true)[0] };
+
 
             for (int i = 0; i < 2; i++)
             {
@@ -54,7 +58,7 @@ namespace Royal_Game_of_Ur
             }
 
             // Make sure they can't go further than finish tile
-            if (piece.BoardPosition[1] > 5 && newPosition[1] > 5)
+            if (piece.State == PieceState.Playing && piece.BoardPosition[1] > 5 && newPosition[1] < 5)
                 return false;
 
             // 🐈
@@ -94,12 +98,27 @@ namespace Royal_Game_of_Ur
                 else
                     playingPieces[oldPosition[0], oldPosition[1]] = null;
 
-                playingPieces[newPosition[0], newPosition[1]] = piece;
+                int[] finishTile = new int[] { (int)piece.Player.color * 2, 5 };
+
+                if (newPosition[0] != finishTile[0] || newPosition[1] != finishTile[1])
+                    playingPieces[newPosition[0], newPosition[1]] = piece;
 
                 this.playingGrid.Controls.Remove(piece);
-                this.playingGrid.Controls.Add(piece, newPosition[0], newPosition[1]);
 
-                landedOnRosette = IsRosette(newPosition);
+                if (newPosition[0] != 1 && newPosition[1] == 5)
+                {
+                    int howManyFinished = this.finishedGrids[(int)piece.Player.color].Controls.Count;
+
+                    this.finishedGrids[(int)piece.Player.color].Controls.Add(piece, 0, howManyFinished);
+                    piece.SetState(PieceState.Finished);
+                    piece.Enabled = false;
+                    landedOnRosette = false;
+                }
+                else
+                {
+                    this.playingGrid.Controls.Add(piece, newPosition[0], newPosition[1]);
+                    landedOnRosette = IsRosette(newPosition);
+                }
 
                 return true;
             }

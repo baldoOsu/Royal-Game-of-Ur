@@ -91,5 +91,8 @@
     <Content Include="Assets\piece_orange.png" />
     <Content Include="Assets\piece_purple.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\Dice\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
